@@ -1,0 +1,23 @@
+﻿<Window x:Class="WpfChatClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfChatClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!--<Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal">
+            <Button Name="btnmain" Width="80" Content="메인"/>
+            <Button Name="btnone" Width="80" Content="페이지 1"/>
+            <Button Name="btntwo" Width="80" Content="페이지 2"/>
+        </StackPanel>
+        <Frame Name="frame" Grid.Row="1" Source="Login.xaml"/>-->
+        
+        <Frame x:Name="frame"/>
+    </Grid>
+</Window>

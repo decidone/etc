@@ -1,0 +1,230 @@
+body {
+    background:linear-gradient(rgba(47,23,15,.45),rgba(47,23,15,.45)),url('../images/body-bg.jpg');
+    font-family: 'Nanum Gothic', sans-serif;
+    }
+.menu-wrap {
+    width:100%;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#272727;
+}
+.menu {
+    width:1000px;
+    margin:0px auto;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.menu ul{
+    text-align:center;
+}
+.menu li{
+    list-style:none;
+}
+.menu a {
+    list-style:none;
+    transition:all linear 0.15s;
+    color:#919191;
+}
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#be5b70;
+}
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+.menu > ul > li {
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#272727;
+}
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+.sub-menu {
+    width:100%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#272727;
+}
+.sub-menu li {
+    display:block;
+    font-size:16px;
+}
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#272727;
+}
+nav ul li a{
+     text-decoration:none;
+}
+.head{
+    height: 80px;
+    text-align: center;
+    color: white;
+}
+.section{
+    width:800px;
+    height:230px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border: black;
+    background-color:rgba(255,255,255,.85);
+    padding:20px;
+    border-radius: 3px;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 22px;
+    font-style: bold;
+}
+footer{
+	clear:both;
+	padding:10px;
+	background-color:#272727;
+	color:white;	
+    text-align:center;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height:30px;
+    font-family: 'Dosis', sans-serif;
+}
+.maker{
+    text-align: right;
+}
+.backgrounds {
+    width: 100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    position: absolute;
+}
+.backgrounds .other-content {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 0;
+    padding: 30px;
+    font-size: 50px;
+    color: white;
+}
+.backgrounds .slide {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transition: opacity 1s ease-in-out;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+}
+.backgrounds .slide.show {
+    opacity: 1;
+}
+.homeover{
+    color:white;
+    text-decoration:none;
+}
+.home0{
+    text-align: left;
+}
+.home1{
+	margin-right:10px;
+}
+
+.cell{
+	width:800px;
+	float:left;
+	display: inline-block;
+}
+.cell table, .cell td, .cell th {    
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.cell table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.cell th, .cell td {
+    padding: 10px;
+}
+.cell th {
+	background-color:lightgray;
+}
+.cell td {
+	background-color:white;
+}
+.choice:hover {
+    background-color: lightgreen;
+    color: black;
+}
+.choice:link, .choice:visited {
+    text-decoration: none;
+    color: red;
+}
+.main10{
+	width:1170px;
+}
+td:hover {background-color: #f5f5f5;}
+
+.field ul {
+	list-style:none;
+}
+.field li {
+	list-style:none;
+	margin:10px;
+}
+.field{
+	width:350px;
+    padding:10px; 
+}
+#fix{
+float:right;
+margin-right:40px;
+}
+#book-search-form{
+list-style:none;
+}
+.sss{
+clear:both;
+}
+fieldset{
+	width:350px;
+   	border:1px solid black; 
+   	margin-top:0px; 
+    margin-left:0px; 
+    padding:10px; 
+    transform:translateX(-52px);
+    
+}
+.fieldset1{
+margin-left:20px; 
+    padding:10px; 
+}
+.hh{
+transform:translateX(-15px);
+}
+.butt{
+float:right;
+margin-right:25px;
+}

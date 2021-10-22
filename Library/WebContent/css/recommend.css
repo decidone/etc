@@ -1,0 +1,59 @@
+.section1{
+    position:relative;
+    display: inline-block;
+    width:250px;
+    height:400px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border: black;
+    background-color:rgba(255,255,255,.85);
+    padding:5px;
+    border-radius: 3px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    font-style: bold;
+}
+.section2{
+    position:relative;
+    display: inline-block;
+    width:250px;
+    height:400px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border: black;
+    background-color:rgba(255,255,255,.85);
+    padding:5px;
+    border-radius: 3px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    font-style: bold;
+}
+.section3{
+    position:relative;
+    display: inline-block;
+    width:250px;
+    height:400px;
+    margin-top:20px;
+    margin-bottom:20px;
+    border: black;
+    background-color:rgba(255,255,255,.85);
+    padding:5px;
+    border-radius: 3px;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+    font-style: bold;
+}
+.container{
+    width:1000px;
+    height:600px;
+    margin-top:20px;
+    margin-bottom:20px;
+    position:relative;
+}
+.book-re{
+    padding:5px;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    color:black;
+}

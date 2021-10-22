@@ -1,0 +1,149 @@
+fieldset{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body{ 
+    line-height:1;
+    background: url('../images/body-bg.jpg');
+    font-family: 14px 'Nanum Gothic', sans-serif;
+    color:#191919;
+}
+h1{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size:20px;
+    margin:20px 30px;
+}
+#form{ 
+    width:350px;
+    margin:80px auto;
+    height:270px;
+    position:relative;
+    background:#fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    z-index:3;
+}
+#login{ 
+    margin:20px 25px;
+}
+#login-fields input{
+    background: #f1f1f1 url(../images/login-sprite.png) no-repeat;
+    padding: 7px 15px 7px 30px;
+    width: 250px; 
+    border: 1px solid #ccc;
+    margin-bottom:20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    transition: all 0.2s linear;
+}
+#login-fields input:last-child{
+    margin-bottom:5px;
+}
+#username{
+    background-position: 8px -10px !important;
+}
+#password{
+    background-position: 8px -60px !important;
+}
+#login-fields input:focus{
+    background-color:rgba(250,250,250,1.0);
+    border-color: #00EC21;
+    box-shadow: 0 0 0 1px #e8c291 inset;
+}
+#login-actions{
+    position: absolute;
+    right:20px;
+}
+#login-actions input{
+    width:70px;
+    height:32px;
+    padding:auto;
+    background-color:#4CAA00;
+    border:none;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    font:12px verdana;
+    cursor: pointer;
+    color:#fff;
+    border:none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    margin-top:2px;
+    margin-right:10px;
+}
+#login-actions input:hover{
+    opacity:1;
+}
+.button {
+    width:70px;
+    height:32px;
+    padding:8px 12px;
+    background-color:#4CAA00;
+    border:none;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+    font:12px verdana;
+    cursor: pointer;
+    color:#fff;
+    border:none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    margin-top:2px;
+    margin-right:-20px;
+    text-decoration: none;
+}
+ .button:hover {
+    opacity:1;
+}
+#slideshow{
+
+}
+#loginuser{
+
+}
+#loginadmin{
+
+}
+#loginfail{
+
+}
+
+.container {
+    width: 100%;
+    height:100%;
+    position: absolute;
+  }
+
+  .container .other-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+    padding: 30px;
+    font-size: 50px;
+    color: white;
+  }
+
+  .container .slide {
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transition: opacity 1s ease-in-out;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0;
+  }
+
+  .container .slide.show {
+    opacity: 1;
+  }
+
+  
