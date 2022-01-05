@@ -65,8 +65,8 @@ CREATE TABLE `member` (
 insert  into `member`(`id`,`passwd`,`name`,`mail`,`book1`,`book2`,`book3`) values 
 ('admin','1234','운영자','admin@gmail.com','고양이1','JSP SERVLET',' '),
 ('user','1234','user','user@gmail.com',' ',' ',' '),
-('user1','1234','강민성','user1@naver.com','이것이 자바다',' ',' '),
-('user2','1234','김승주','user2@naver.com',' ',' ',' ');
+('user1','1234','user1','user1@naver.com','이것이 자바다',' ',' '),
+('user2','1234','user2','user2@naver.com',' ',' ',' ');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

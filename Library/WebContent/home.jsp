@@ -88,7 +88,7 @@
                     
                         <div class="home1">-르네 데카르트-</div>
                     </h2>
-                    <p class="maker">201433001 강민성, 201433006 김승주</p>
+                    <p class="maker">Eclipse, 2018</p>
             </section>
         </div>
         
